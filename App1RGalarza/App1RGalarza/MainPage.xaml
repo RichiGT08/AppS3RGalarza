@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1RGalarza.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text=" Sem3.Uisrael" HorizontalTextAlignment="Center" TextColor="White" FontSize="28"/>
+        </Frame>
+        <Label Text="CALIFICACIONES UISRAEL" FontSize="Title" Padding="30,10,30,10"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Text="Parcial 1º" FontSize="20" />
+            <Label Grid.Row="1" Grid.Column="0" Text="Nota Seguimiento:" FontSize="20" />
+            <Entry Grid.Row="1" Grid.Column="1" x:Name="segui1" Placeholder="ingrese Nota" Keyboard="Numeric" />
+            <Label Grid.Row="2" Grid.Column="0" Text="Nota Examen :" FontSize="20" />
+            <Entry Grid.Row="2" Grid.Column="1" x:Name="examen1" Placeholder="ingrese Nota" Keyboard="Numeric" />
+
+            <Button Grid.Row="3" x:Name="parcial1" Text="Parcial Uno" Clicked="Btnparcial1_Clicked"/>
+
+            <Label Grid.Row="4" Grid.Column="0" Text="Parcial 2º" FontSize="20" />
+            <Label Grid.Row="5" Grid.Column="0" Text="Nota Seguimiento:" FontSize="20" />
+            <Entry Grid.Row="5" Grid.Column="1" x:Name="segui2" Placeholder="ingrese Nota" Keyboard="Numeric" />
+            <Label Grid.Row="6" Grid.Column="0" Text="Nota Examen 2:" FontSize="20" />
+            <Entry Grid.Row="6" Grid.Column="1" x:Name="examen2" Placeholder="ingrese Nota" Keyboard="Numeric" />
+
+            <Button Grid.Row="7" x:Name="Parcial2" Text="Parcial DOS" Clicked="Parcial2_Clicked"/>
+
+            <Button Grid.Row="8" x:Name="notafinal" Text="Comprobar NotaFinal" Clicked="notafinal_Clicked_1"/>
+
+        </Grid>
+    </StackLayout>
+</ContentPage>

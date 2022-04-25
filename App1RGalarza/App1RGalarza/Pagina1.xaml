@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1RGalarza.Pagina1">
+    <ContentPage.Content>
+        <StackLayout>
+        
+            <Image Source="https://www.softpi.com/wp-content/uploads/2020/03/LOGO-UISRAEL-VERTICAL.png"></Image>
+            <Label Text="Bienvenido!" FontSize="25" TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Entry Placeholder="Usuario" x:Name="txtUsuario" TextColor="Black" FontAttributes="Bold"/>
+            <Entry Placeholder="Contraseña" x:Name="txtPin" TextColor="MediumVioletRed" FontAttributes="Bold" IsPassword="True" />
+            <Button Text="Iniciar Sesion" x:Name="btnLogin" Clicked="BtnLogin_Clicked" />
+            <Label Text="" x:Name="lblResultado" TextColor="Red"/>
+
+            <Frame/>
+            
+            <Label Text="Sistema De calificaciones semana2"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
