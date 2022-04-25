@@ -87,9 +87,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App1RGalarza\AppS3RGalarza.csproj">
+    <ProjectReference Include="..\App1RGalarza\App1RGalarza.csproj">
       <Project>{6D2A9ED9-0DCD-423A-BB39-F7E40EDEA122}</Project>
-      <Name>AppS3RGalarza</Name>
+      <Name>App1RGalarza</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

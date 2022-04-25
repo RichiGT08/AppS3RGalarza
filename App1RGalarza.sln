@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppS3RGalarza.Android", "App1RGalarza\App1RGalarza.Android\AppS3RGalarza.Android.csproj", "{9B3D75D5-9BCE-49F5-9C83-CB8565E80CF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1RGalarza.Android", "App1RGalarza\App1RGalarza.Android\App1RGalarza.Android.csproj", "{9B3D75D5-9BCE-49F5-9C83-CB8565E80CF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppS3RGalarza.iOS", "App1RGalarza\App1RGalarza.iOS\AppS3RGalarza.iOS.csproj", "{C7E094E4-493D-43DC-ACF0-7CA8A4D6644E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1RGalarza.iOS", "App1RGalarza\App1RGalarza.iOS\App1RGalarza.iOS.csproj", "{C7E094E4-493D-43DC-ACF0-7CA8A4D6644E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppS3RGalarza", "App1RGalarza\App1RGalarza\AppS3RGalarza.csproj", "{6D2A9ED9-0DCD-423A-BB39-F7E40EDEA122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1RGalarza", "App1RGalarza\App1RGalarza\App1RGalarza.csproj", "{6D2A9ED9-0DCD-423A-BB39-F7E40EDEA122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

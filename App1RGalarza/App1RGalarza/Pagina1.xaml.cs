@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppS3RGalarza
+namespace App1RGalarza
 {
     public partial class Pagina1 : ContentPage
     {
